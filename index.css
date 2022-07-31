@@ -1,0 +1,142 @@
+*
+{
+
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body 
+{ 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img
+{
+    margin-right: 6rem;
+    height: 35rem;
+    width: 25rem;
+}
+
+.pw_container
+{
+    background-color:#f0526a;
+    height: 65vh;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+ul >li
+{
+  list-style: none;
+  font-weight: bolder;
+  font-size: medium;
+  padding: 15px;
+}
+
+.pw_header 
+{
+    padding: 1rem;
+}
+
+.pw 
+{
+    background-color: #EF7C8E;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+    
+}
+
+.pw button 
+{
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    margin: 10px 15px 0px 0px;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 5px;
+}
+
+.pw:hover button 
+{
+    background-color: crimson;
+    transform: translate(0, 0%);
+}
+
+.pw-body 
+{
+    padding: 0 1rem 1rem;
+}
+
+#len
+{
+    margin-left: 12rem;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.number
+{
+    margin-left: 14rem;
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+
+}
+
+.case
+{
+    margin-left: 10rem;
+    height: 15px;
+    width: 15px;
+    border-radius: 2px;
+}
+
+
+.generate 
+{
+    background-color:#189AB4;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    box-shadow: 5px 5px 10px black;    
+    border: none;
+    border-radius: 5px;
+}
+
+.generate:hover
+{
+    background-color: rgb(181, 3, 38);
+    color: wheat;
+}
